@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793518229896",
+    "project_id": "sanatan-9bb18",
+    "storage_bucket": "sanatan-9bb18.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793518229896:android:023737bea5b60de187d23d",
+        "android_client_info": {
+          "package_name": "com.company.hindu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvwspjxJEuNSlgi-LBr4owIyAdJpEbBF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

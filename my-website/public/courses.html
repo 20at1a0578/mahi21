@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details - Vedic Chanting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb">
+        <a href="index.html">Home</a> &gt;
+        <a href="courses.html">Courses</a> &gt;
+        <span>Vedic Chanting</span>
+    </nav>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">📿 Vedic Courses</a>
+            <button class="nav-toggler" onclick="toggleMenu()">☰</button> 
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Course Header -->
+    <section class="course-header">
+        <img src="chanting.png" alt="Vedic Chanting" class="course-image">
+        <div class="course-info">
+            <h1>Vedic Chanting</h1>
+            <p>Learn the sacred hymns and Vedic mantras with proper pronunciation.</p>
+            
+            <div class="course-meta">
+                <span>⏳ <strong>Duration:</strong> 4 Weeks</span>
+                <span>📖 <strong>Lessons:</strong> 10</span>
+                <span>🎯 <strong>Level:</strong> Beginner</span>
+            </div>
+            <div class="course-actions">
+                <a href="vedic-chanting-syllabus.pdf" class="btn download-btn" download>📜 Download Syllabus</a>
+                <button class="btn share-btn" onclick="copyCourseLink()">🔗 Share Course</button>
+            </div>
+            
+            <a href="#" class="btn enroll-btn">Enroll Now</a>
+        </div>
+    </section>
+<!-- Other Courses Section -->
+<section class="other-courses">
+    <h2>Explore More Courses</h2>
+    <div class="course-grid">
+        <div class="course-card">
+            <img src="gita.png" alt="Bhagavad Gita Chanting">
+            <h3>Bhagavad Gita Chanting</h3>
+            <p>Chant and understand the shlokas of the Bhagavad Gita with devotion.</p>
+            <button class="btn enroll-btn" onclick="enrollCourse('Bhagavad Gita Chanting', 499)">Enroll - ₹499</button>
+        </div>
+        <div class="course-card">
+            <img src="bhakti.png" alt="Shiva Stotra Recitation">
+            <h3>Shiva Stotra Recitation</h3>
+            <p>Learn powerful Stotras dedicated to Lord Shiva for daily chanting.</p>
+            <button class="btn enroll-btn" onclick="enrollCourse('Shiva Stotra Recitation', 399)">Enroll - ₹399</button>
+        </div>
+        <div class="course-card">
+            <img src="sanskrit.png" alt="Sanskrit Basics">
+            <h3>Sanskrit Basics</h3>
+            <p>Understand the fundamntals of Sanskrit language to read scriptures.</p>
+            <button class="btn enroll-btn" onclick="enrollCourse('Sanskrit Basics', 599)">Enroll - ₹599</button>
+        </div>
+    </div>
+</section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <button class="faq-question">📜 What is Vedic Chanting? ⬇</button>
+            <div class="faq-answer">
+                <p>Vedic chanting is the recitation of sacred Sanskrit hymns from the Vedas with precise pronunciation and rhythm.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Post Question Form -->
+    <div class="container">
+        <h2>Post Your Question</h2>
+        <form id="questionForm">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="General">General</option>
+                <option value="Spiritual">Spiritual</option>
+                <option value="Devotional">Devotional</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Vedic Courses. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
