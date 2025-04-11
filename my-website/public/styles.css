@@ -1,0 +1,1331 @@
+.other-courses {
+    padding: 40px;
+    background: #fdf6f0;
+    text-align: center;
+}
+.course-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.course-card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 280px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.course-card h3 {
+    margin: 10px 0;
+}
+.enroll-btn {
+    margin-top: 10px;
+    background-color: #d97706;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.course-filter {
+    text-align: center;
+    padding: 30px 20px;
+    background: #fff7e6; /* Light Saffron */
+}
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.filter-btn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+.filter-btn:hover, .filter-btn.active {
+    background: #cc5500;
+    border: 2px solid #ffd700;
+}
+.courses {
+    padding: 50px 20px;
+    background: #fff7e6; /* Light Saffron */
+    text-align: center;
+}
+.section-title {
+    font-size: 2rem;
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+.course {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 2px solid #ffcc00;
+} 
+.course:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.6);
+}
+.features{
+display:flex;
+justify-content:space-around;
+align-items:center;
+text-align: center;
+    padding: 50px 20px;
+    background: #f5efe0;
+}
+.course img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.course h3 {
+    color: #8b0000;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Enroll Button */
+.course .btn {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.course .btn:hover {
+    background: #cc5500;
+    border: 2px solid #ffd700;
+}
+.feature{
+width:30%
+padding: 20px;
+    background: white;
+    border-radius: 10px;
+ box-shadow: 0px 0px 10px ;
+    transition: 0.3s;
+    border: 2px solid #ffcc00;
+}
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.6);
+}
+.banner{
+background:url('Jai shree ram.jpg');
+height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffd700; /* Gold color */
+    padding: 20px;
+}
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.feature h3 {
+    color: #8b0000; /* Deep Red */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #333;
+}
+.banner-content {
+    background: rgba(139, 69, 19, 0.7); /* Dark Saffron Overlay */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ffd700;
+    box-shadow: 0px 0px 10px #ffd70000;
+}
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: "Tiro Devanagari Hindi", serif;
+}
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: "Tiro Devanagari Hindi", serif;
+}
+
+.btn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.btn:hover {
+    background: #cc5500;
+    border: 2px solid #ffd700;
+}
+.auth-buttons {
+    margin-left: auto; /* Pushes buttons to the right */
+    display: flex;
+    gap: 10px;
+}
+
+/* Style Buttons */
+.auth-buttons button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.auth-buttons button:hover {
+    background: #cc5500;
+    border: 2px solid #ffd700;
+}
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-box input {
+    border: none;
+    padding: 8px;
+    outline: none;
+    width: 150px;
+}
+
+.search-box button {
+    background: #555;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Responsive: Hide Search on Small Screens */
+@media (max-width: 768px) {
+    .search-box {
+        display: none;
+    }
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    margin: 0 10px;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.nav-items a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Navbar Toggler */
+.nav-toggler {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #333;
+        text-align: center;
+    }
+
+    .nav-items.active {
+        display: flex;
+    }
+
+    .nav-items li {
+        padding: 10px;
+    }
+
+    .nav-toggler {
+        display: block;
+    }
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: #f5e1a4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #d4a017;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #b8860b;
+}`;/* Container for buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Left-side (Login & Sign-up) */
+.left-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Center (Filters) */
+.center-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Right-side (Search) */
+.right-buttons {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+/* Styling for search input */
+#searchInput {
+    padding: 8px;
+    border: 2px solid #d4a017;
+    border-radius: 5px;
+    width: 200px;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #fffaf0; /* Light beige for a divine feel */
+    color: #5a3e1b;
+    line-height: 1.6;
+}
+
+/* Breadcrumb Navigation (Left-Aligned) */
+.breadcrumb {
+    background: #f5e1a4; /* Light golden background */
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: inline-block;
+}
+
+.breadcrumb a {
+    color: #7a4114;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.breadcrumb a:hover {
+    color: #b8860b;
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #5a3e1b;
+}
+
+/* Navbar */
+/* 🌟 General Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🔵 Login & Sign-Up Buttons */
+#loginBtn, #signupBtn {
+    background-color: #007bff;  /* Blue */
+    color: white;
+}
+
+#loginBtn:hover, #signupBtn:hover {
+    background-color: #0056b3;
+}
+
+/* 🔍 Search Button */
+#searchBtn {
+    background-color: #28a745;  /* Green */
+    color: white;
+}
+
+#searchBtn:hover {
+    background-color: #1e7e34;
+}
+
+/* 🔘 Filter Buttons */
+.filter-btn {
+    background-color: #ffc107;  /* Yellow */
+    color: black;
+    margin: 5px;
+}
+
+.filter-btn:hover {
+    background-color: #d39e00;
+}
+
+/* 🌟 Search Input Styling */
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* 🖥 Responsive Button Layout */
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: rgb(109, 102, 105);
+    color: #d4a017;
+    border-radius: 5px;
+}
+
+/* Navbar Toggler (for Mobile) */
+/* Navbar */
+nav {
+    background: #d4a017; /* Warm saffron */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav-toggler {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #ff6600; /* Bright orange */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-toggler {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        z-index: 100;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+}
+
+/* Course Header */
+.course-header {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background: #fdf6e3;
+    border-bottom: 3px solid #d4a017;
+}
+
+.course-image {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.course-info {
+    max-width: 600px;
+}
+
+.course-info h1 {
+    color: #7a4114;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.course-meta {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #7a4114;
+}
+
+/* Course Content Styling */
+.course-content {
+    background: #fffaf0;
+    padding: 40px;
+    text-align: center;
+}
+
+.course-content h2 {
+    color: #7a4114;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.module {
+    background: #f5e1a4;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.module h3 {
+    color: #7a4114;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Table Styling */
+.course-table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.course-table th, .course-table td {
+    padding: 12px;
+    border: 1px solid #7a4114;
+    text-align: center;
+}
+
+.course-table th {
+    background: #d4a017;
+    color: white;
+    font-weight: bold;
+}
+
+/* Course Actions */
+.course-actions {
+    margin-top: 20px;
+}
+
+.btn {
+    background: #7a4114;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: #b8860b;
+}
+
+/* FAQ Section */
+.faq {
+    background: #e39a08;
+    padding: 40px;
+    text-align: center;
+}
+
+.faq h2 {
+    color: #6a4223;
+}
+
+.faq-item {
+    background: rgb(225, 199, 8);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-left: 5px solid #d4a017;
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+}
+
+/* Footer */
+footer {
+    background: #7a4114;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}  
+.blog-header {
+    background: url('header-image.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 50px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color:lightslategray  ;
+    
+}
+.header-text {
+    font-family: 'Cinzel', serif; /* Elegant devotional font */
+    font-size: 48px; /* Adjust size as needed */
+    font-weight: bold;
+    color: #FFD700; /* Golden color for a divine feel */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8); /* Dark shadow for visibility */
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for clarity */
+    border-radius: 10px; /* Smooth edges */
+    display: inline-block;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.blog-post {
+    background: #e57804b4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.blog-post h2 {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.blog-post p {
+    font-size: 1em;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 10px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #cc5500;
+}
+/* Blog Posts List */
+.blog-posts-list {
+    flex: 2;
+    padding: 20px;
+}
+
+.blog-posts-list h2 {
+    font-size: 24px;
+    color: #8b5a00;
+    border-bottom: 2px solid #d4a017;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Blog Post Item */
+.blog-item {
+    display: flex;
+    background: #fdf2d6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-item img {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.blog-content {
+    flex: 1;
+}
+
+.blog-content h3 {
+    font-size: 20px;
+    color: #643c00;
+    margin-bottom: 5px;
+}
+
+.blog-content h3 a {
+    text-decoration: none;
+    color: #643c00;
+}
+
+.blog-content p {
+    color: #333;
+}
+
+.blog-content .date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.blog-content .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #d4a017;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Sidebar */
+.blog-sidebar {
+    flex: 1;
+    background: #ffe6a7;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.blog-sidebar h3 {
+    color: #8b5a00;
+    margin-bottom: 10px;
+}
+
+.blog-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-sidebar ul li {
+    margin: 8px 0;
+}
+
+.blog-sidebar ul li a {
+    text-decoration: none;
+    color: #5a3000;
+    font-weight: bold;
+}
+
+.search-box {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #8b5a00;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.search-btn {
+    width: 100%;
+    padding: 8px;
+    background: #d4a017;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Blog Post Header */
+.post-header {
+    text-align: center;
+    background: #fdf2d6;
+    padding: 30px 20px;
+    border-bottom: 3px solid #d4a017;
+}
+
+.post-header h1 {
+    font-size: 28px;
+    color: #8b5a00;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #5a3000;
+}
+
+/* Blog Post Container */
+.post-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff5d6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Post Image */
+.post-image {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Blog Post Content */
+.post-content h2 {
+    color: #643c00;
+    margin-top: 15px;
+}
+
+.post-content p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Blockquote */
+blockquote {
+    background: #ffe6a7;
+    border-left: 5px solid #d4a017;
+    padding: 10px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+/* Back to Blog Button */
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #d4a017;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/* Blog Post Page */
+.post-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff5d6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Post Image */
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Blog Post Content */
+.blog-post h1 {
+    color: #643c00;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.post-meta {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.blog-post p, .blog-post ul, .blog-post blockquote {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.blog-post ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.blog-post blockquote {
+    font-style: italic;
+    background: #fdf2d6;
+    padding: 10px;
+    border-left: 5px solid #d4a017;
+}
+
+/* Back Button */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #d4a017;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Blog Post Page */
+.post-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff5d6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Post Image */
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Blog Post Content */
+.blog-post h1 {
+    color: #643c00;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.post-meta {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.blog-post p, .blog-post ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.blog-post ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Back Button */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #d4a017;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Social Sharing Buttons */
+.social-share {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-share p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.share-btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Facebook Button */
+.share-btn.facebook {
+    background-color: #3b5998;
+}
+
+/* Twitter Button */
+.share-btn.twitter {
+    background-color: #1da1f2;
+}
+
+/* WhatsApp Button */
+.share-btn.whatsapp {
+    background-color: #25d366;
+}
+
+/* Hover Effects */
+.share-btn:hover {
+    opacity: 0.8;
+}
+.blog-sidebar {
+    width: 300px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 20px;
+}
+
+.sidebar-section {
+    margin-bottom: 20px;
+}
+
+.sidebar-section h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 5px;
+}
+
+.sidebar-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-section ul li {
+    margin: 8px 0;
+}
+
+.sidebar-section ul li a {
+    text-decoration: none;
+    color: #444;
+    transition: color 0.3s;
+}
+
+.sidebar-section ul li a:hover {
+    color: #ff6600;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.facebook { background: #3b5998; }
+.twitter { background: #1da1f2; }
+.whatsapp { background: #25d366; }
+
+.newsletter-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form button {
+    width: 100%;
+    padding: 8px;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.blog-container {
+    display: flex;
+    gap: 20px;
+}
+
+.blog-content {
+    flex: 2;
+}
+
+.blog-sidebar {
+    flex: 1;
+}
+/* Sidebar Links Hover Effect */
+.sidebar-section ul li a {
+    display: block;
+    padding: 8px 12px;
+    color: #444;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.sidebar-section ul li a:hover {
+    background: #ffcc00;
+    color: #000;
+    transform: translateX(5px);
+    font-weight: bold;
+}
+/* Sidebar Links Default Styling */
+.sidebar-section ul li a {
+    display: block;
+    padding: 8px 12px;
+    color: #444;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Active Hover Effect (JavaScript will apply this class) */
+.sidebar-hover {
+    background: #ffcc00 !important;
+    color: #000 !important;
+    transform: translateX(5px);
+    font-weight: bold;
+}
+/* Subscribe Button */
+.subscribe-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscribe-box {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subscribe-box input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.subscribe-box button {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
